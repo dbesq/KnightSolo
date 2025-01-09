@@ -18,6 +18,7 @@ import { Menu, User2 } from 'lucide-react'
 import Logo from '@/public/logo.png'
 import prisma from '../utils/db'
 import { Toaster } from '@/components/ui/sonner'
+import { ReactNode } from 'react'
 
 async function getUser(userId: string) {
     const data = await prisma.user.findUnique({
