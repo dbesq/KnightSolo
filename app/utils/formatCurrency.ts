@@ -1,6 +1,6 @@
 
 interface iAppProps {
-    amount: Number,
+    amount: number,
     currency: "USD" | "EUR"
 }
 
